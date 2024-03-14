@@ -8,11 +8,11 @@ export default function Search(){
            <Box>
                 <form id='form'>
                     <div id='text'>
-                    <TextField sx={{width: '100px'}} size="small" label="Modelo" variant="outlined" />
-                    <TextField sx={{width: '100px'}} size="small" label="Marca" variant="outlined" />
-                    <TextField sx={{width: '100px'}} size="small" label="Ano" variant="outlined" />
-                    <TextField sx={{width: '100px'}} size="small" label="Preço" variant="outlined" />
-                    <ButtonStyle text='Pesquisar' height='100%' flex='1'/>
+                    <TextField sx={{minWidth: '100px', flex: '1'}} size="small" label="Modelo" variant="outlined" />
+                    <TextField sx={{minWidth: '100px', flex: '1'}} size="small" label="Marca" variant="outlined" />
+                    <TextField sx={{minWidth: '100px', flex: '1'}} size="small" label="Ano" variant="outlined" />
+                    <TextField sx={{minWidth: '100px', flex: '1'}} size="small" label="Preço" variant="outlined" />
+                    <ButtonStyle text='Pesquisar' flex='1'/>
                     </div>
                 </form>
             

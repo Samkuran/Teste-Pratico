@@ -3,9 +3,11 @@ import { Button } from "@mui/material";
 export default function ButtonStyle (props) {
 
     return (
-        <Button sx={{
+        <Button onClick={props.onClick}
+                sx={{
                 width: props.width, 
                 height: props.height,
+                maxHeight: props.height,
                 flex: props.flex,
                 color: "#FC9B02",
                 bgcolor: "#023047",

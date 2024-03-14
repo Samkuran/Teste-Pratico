@@ -1,6 +1,4 @@
-import { Hidden } from "@mui/material";
 import CardUnit from "../../components/Card";
-import Filter from "../../components/Filter";
 import Header from "../../components/Menu";
 import "./styles.css";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
@@ -21,17 +19,13 @@ export default function Home(){
         <>
         <ThemeProvider theme={theme}>
             <Header />
-            <div id="teste">
-                <Hidden smDown>
-                    <Filter />
-                </Hidden>
-                
-                <div>
-                    <Search />
-                    <div>
-                        <CardUnit />
+            <div id="home">
+                    <div id="search">
+                        <Search />
                     </div>
-                </div>
+                    <div id="offers">
+                        <CardUnit/>
+                    </div>
             </div>
         </ThemeProvider>
         </>
