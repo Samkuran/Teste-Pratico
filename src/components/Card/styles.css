@@ -1,0 +1,48 @@
+#price{
+    margin: 0;
+    padding: 0;
+}
+
+#content{
+    padding: 0 16px;
+}
+
+#information{
+    margin: 4px 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#information h5{
+    color: #8F8F8F;
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer hr {
+    width: 100%;
+    height: 0.5px;
+    background-color: #cccccc80;
+    border: none;
+}
+
+#footer p {
+   font-size: 12px;
+   margin-top: 0;
+   color: #8F8F8F;
+   padding: 0 16px;
+}
+
+#footer span{
+    color: black;
+    font-weight: bolder;
+ }
+
