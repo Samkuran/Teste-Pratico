@@ -39,8 +39,8 @@ export default function CardUnit (){
 
         const handleViewDetails = async (carId) => {
             const car = carsData.find((car) => car.id === carId);
-        setSelectedCar(car); // Armazenando o carro selecionado
-        setOpen(true); // Abrindo o modal
+        setSelectedCar(car);
+        setOpen(true); 
         try {
             await fetch(`http://localhost:3000/cars/${carId}`, {
                 method: "PUT",
