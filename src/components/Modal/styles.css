@@ -1,0 +1,46 @@
+#modalCar{
+    max-width: 1000px;
+}
+
+#styleImage{
+    max-height: 200px;
+}
+
+#descrition h2{
+    margin: 0;
+    margin-top: 14px;
+}
+
+#descrition p{
+    font-size: 14px;
+    margin: 0;
+    color: #8F8F8F;
+}
+
+#descrition{
+    text-align: start;
+}
+
+#table{
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#thead{
+    text-align: start;
+}
+
+#buy{
+    padding-top: 12px;
+}
+
+@media screen and (max-width: 425px){
+    #modalCar{
+        max-width: 250px;
+    }
+    #styleImage{
+        width: 200px;
+        max-height: 150px;
+    }
+}

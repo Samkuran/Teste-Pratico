@@ -25,6 +25,9 @@ export default function Home(){
                     </div>
                     <div id="offers">
                         <CardUnit/>
+                        <CardUnit/>
+                        <CardUnit/>
+                        <CardUnit/>
                     </div>
             </div>
         </ThemeProvider>
